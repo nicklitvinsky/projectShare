@@ -1,4 +1,3 @@
-import VacationLogic
 
 class Like:
     def __init__(self, user, vacation):
@@ -20,10 +19,3 @@ class Like:
         return self.vacation.likes
 
 
-vac = Vacation(
-    title="Beach Trip", 
-    country="Israel", 
-    start_date=date(2025, 1, 1), 
-    end_date=date(2025, 2, 1), 
-    price=5000
-)
